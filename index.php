@@ -71,7 +71,10 @@
 				<form method="post">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile">
-							<input type="text" class="text" name="callname" placeholder="Wie sollen wir dich nennen?" required/>
+							<input type="text" class="text" name="callname" placeholder="Wie sollen wir dich nennen?" pattern="[A-Za-z][a-z]*" minlenght="2" maxlength="32" required/>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input type="text" class="text" name="lastname" placeholder="Nachname (optional)" pattern="[A-Za-z][a-z]*" minlenght="2" maxlength="32"/>
 						</div>
 						<div class="col-6 col-12-mobile">
 							<input type="email" class="text" name="email" placeholder="E-Mail" required/>
@@ -95,18 +98,115 @@
 								<option value="30">20 Jahre</option>
 								<option value="31">20 Jahre</option>
 								<option value="32">20 Jahre</option>
+								<option value="33">33 Jahre</option>
+								<option value="34">34 Jahre</option>
+								<option value="35">35 Jahre</option>
+								<option value="35">35 Jahre</option>
+								<option value="36">36 Jahre</option>
+								<option value="37">37 Jahre</option>
+								<option value="38">38 Jahre</option>
+								<option value="39">39 Jahre</option>
+								<option value="40">40 Jahre</option>
+								<option value="41">41 Jahre</option>
+								<option value="42">42 Jahre</option>
+								<option value="43">43 Jahre</option>
+								<option value="44">44 Jahre</option>
+								<option value="45">45 Jahre</option>
+								<option value="46">46 Jahre</option>
+								<option value="47">47 Jahre</option>
+								<option value="48">48 Jahre</option>
+								<option value="49">49 Jahre</option>
+								<option value="50">50 Jahre</option>
+								<option value="51">51 Jahre</option>
+								<option value="52">52 Jahre</option>
+								<option value="53">53 Jahre</option>
+								<option value="54">54 Jahre</option>
+								<option value="55">55 Jahre</option>
+								<option value="56">56 Jahre</option>
+								<option value="57">57 Jahre</option>
+								<option value="58">58 Jahre</option>
+								<option value="59">59 Jahre</option>
+								<option value="60">60 Jahre</option>
+								<option value="61">61 Jahre</option>
+								<option value="62">62 Jahre</option>
+								<option value="63">63 Jahre</option>
+								<option value="64">64 Jahre</option>
+								<option value="65">65 Jahre</option>
+								<option value="66">66 Jahre</option>
+								<option value="67">67 Jahre</option>
+								<option value="68">68 Jahre</option>
+								<option value="69">69 Jahre</option>
+								<option value="70">70 Jahre</option>
+								<option value="71">71 Jahre</option>
+								<option value="72">72 Jahre</option>
+								<option value="73">73 Jahre</option>
+								<option value="74">74 Jahre</option>
+								<option value="75">75 Jahre</option>
+								<option value="76">76 Jahre</option>
+								<option value="77">77 Jahre</option>
+								<option value="78">78 Jahre</option>
+								<option value="79">79 Jahre</option>
+								<option value="80">80 Jahre</option>
+								<option value="81">81 Jahre</option>
+								<option value="82">82 Jahre</option>
+								<option value="83">83 Jahre</option>
+								<option value="84">84 Jahre</option>
+								<option value="85">85 Jahre</option>
+								<option value="86">86 Jahre</option>
+								<option value="87">87 Jahre</option>
+								<option value="88">88 Jahre</option>
+								<option value="89">89 Jahre</option>
+								<option value="90">90 Jahre</option>
+								<option value="91">91 Jahre</option>
+								<option value="92">92 Jahre</option>
+								<option value="93">93 Jahre</option>
+								<option value="94">94 Jahre</option>
+								<option value="95">95 Jahre</option>
+								<option value="96">96 Jahre</option>
+								<option value="97">97 Jahre</option>
+								<option value="98">98 Jahre</option>
+								<option value="99">99 Jahre</option>
+								<option value="100">100 Jahre</option>
+								<option value="101">101 Jahre</option>
+								<option value="102">102 Jahre</option>
+								<option value="103">103 Jahre</option>
+								<option value="104">104 Jahre</option>
+								<option value="105">105 Jahre</option>
+								<option value="106">106 Jahre</option>
+								<option value="107">107 Jahre</option>
+								<option value="108">108 Jahre</option>
+								<option value="109">109 Jahre</option>
+								<option value="110">110 Jahre</option>
+								<option value="111">111 Jahre</option>
+								<option value="112">112 Jahre</option>
+								<option value="113">114 Jahre</option>
+								<option value="115">115 Jahre</option>
 							</select>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="telephone" class="text" name="phone_number" placeholder="Deine Handynummer" required/>
+							<select name="gender">
+								<option value="">Wähle dein Geschlecht aus (optional)</option>
+								<option value="0">Keine Angabe</option>
+								<option value="female">Weiblich</option>
+								<option value="male">Männlich</option>
+								<option value="divers">Divers</option>
+							</select>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="password" class="password" name="password" placeholder="Passwort" required/>
+							<input type="telephone" class="text" name="phone_number" placeholder="Deine Handynummer" maxlength="16" required/>
 						</div>
-
+						<div class="col-6 col-12-mobile">
+							<input type="password" class="password" name="password" placeholder="Passwort" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" minlenght="8" required/>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input type="text" class="text" name="town" placeholder="Wohnort (optional)" maxlength="32" required/>
+						</div>
 						<div class="col-12">
-							<textarea name="message" placeholder="Deine Motivation"></textarea>
+							<textarea name="message" placeholder="Deine Motivation" maxlength="512"></textarea>
 						</div>
+						<label for="captcha" style="display: none;"> <?php echo strval(random_int(1,99)).'+'strval(random_int(1,99)); ?>
+							<input type="text" name="captcha" id="captcha" style="display: none;">
+						</label>
 						<div class="col-12">
 							<ul class="actions">
 								<li><input type="submit" name="register" value="Jetzt registrieren"/></li>
