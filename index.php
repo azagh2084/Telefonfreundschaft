@@ -199,6 +199,9 @@
 							<input type="password" class="password" name="password" placeholder="Passwort" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" minlenght="8" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
+							<input type="password" class="password" name="password_repeat" placeholder="Passwort (Wiederholen)" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" minlenght="8" required/>
+						</div>
+						<div class="col-6 col-12-mobile">
 							<input type="text" class="text" name="town" placeholder="Wohnort (optional)" maxlength="32" required/>
 						</div>
 						<div class="col-12">
