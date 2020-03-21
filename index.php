@@ -5,7 +5,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>Seitenname</h2>
+					<h2>GemeinsamZusammen</h2>
 				</header>
 				<p><big>Du fühlst dich einsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
 				<footer>
@@ -15,13 +15,15 @@
 
 		<!-- Feature 1 -->
 			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/old_phone.jpg" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Lorem ipsum<br />
-						dolor sit amet</h2>
+						<h2>Wie entstand die Idee?</h2>
 					</header>
-					<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+					<p>
+						“eine Freundin meinte, sie hat sich so auf Uni gefreut, weil sie dann endlich wieder Struktur hat und das jetzt leider wegfällt. Ich habe ihr vorgeschlagen, dass ich sie jeden morgen zur gleichen Uhrzeit anrufen kann und das funktioniert bis jetzt sehr gut.”<br>
+						Und was machen Menschen, denen es an Freund*Innen fehlt, die Situationen wie diese auffangen?
+					</p>
 				</div>
 			</article>
 
