@@ -1,6 +1,7 @@
-<?php
+<?php declare(strict_types=1);
 	require_once('./inc/head.inc.php');
 	require_once('./inc/header.inc.php');
+	require_once('./inc/database.inc.php');
 ?>
 		<!-- Banner -->
 			<section id="banner">
@@ -79,7 +80,7 @@
 					<h2>Jetzt mitmachen</h2>
 					<p>Nur noch ein paar Schritte, dann bist du dabei:</p>
 				</header>
-				<form method="post">
+				<form method="post" action="src/register.php">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile">
 							<input type="text" class="text" name="callname" placeholder="Wie sollen wir dich nennen?" pattern="[A-Za-z][a-z]*" minlenght="2" maxlength="32" required/>
@@ -97,18 +98,18 @@
 								<option value="18">18 Jahre</option>
 								<option value="19">19 Jahre</option>
 								<option value="20">20 Jahre</option>
-								<option value="21">20 Jahre</option>
-								<option value="22">20 Jahre</option>
-								<option value="23">20 Jahre</option>
-								<option value="24">20 Jahre</option>
-								<option value="25">20 Jahre</option>
-								<option value="26">20 Jahre</option>
-								<option value="27">20 Jahre</option>
-								<option value="28">20 Jahre</option>
-								<option value="29">20 Jahre</option>
-								<option value="30">20 Jahre</option>
-								<option value="31">20 Jahre</option>
-								<option value="32">20 Jahre</option>
+								<option value="21">21 Jahre</option>
+								<option value="22">22 Jahre</option>
+								<option value="23">23 Jahre</option>
+								<option value="24">24 Jahre</option>
+								<option value="25">25 Jahre</option>
+								<option value="26">26 Jahre</option>
+								<option value="27">27 Jahre</option>
+								<option value="28">28 Jahre</option>
+								<option value="29">29 Jahre</option>
+								<option value="30">30 Jahre</option>
+								<option value="31">31 Jahre</option>
+								<option value="32">32 Jahre</option>
 								<option value="33">33 Jahre</option>
 								<option value="34">34 Jahre</option>
 								<option value="35">35 Jahre</option>
@@ -207,10 +208,10 @@
 							<input type="tel" class="text" name="phone_number" placeholder="Deine Handynummer" maxlength="16" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="password" class="password" name="password" placeholder="Passwort" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" minlenght="8" required/>
+							<input type="password" class="password" name="password" placeholder="Passwort" minlenght="8" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="password" class="password" name="password_repeat" placeholder="Passwort (Wiederholen)" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" minlenght="8" required/>
+							<input type="password" class="password" name="password_repeat" placeholder="Passwort (Wiederholen)" minlenght="8" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
 							<input type="text" class="text" name="town" placeholder="Wohnort (optional)" maxlength="32" required/>
@@ -218,7 +219,7 @@
 						<div class="col-12">
 							<textarea name="message" placeholder="Deine Motivation" maxlength="512"></textarea>
 						</div>
-						<label for="captcha" style="display: none;"> <?php echo strval(random_int(1,99)).'+'.strval(random_int(1,99)); ?>
+						<label for="captcha" style="display: none;"> <?php echo (string)random_int(1, 99) .'+'. (string)random_int(1, 99); ?>
 							<input type="text" name="captcha" id="captcha" style="display: none;">
 						</label>
 						<div class="col-12">
