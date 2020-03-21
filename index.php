@@ -68,12 +68,15 @@
 					<h2>Jetzt mitmachen</h2>
 					<p>Nur noch ein paar Schritte, dann bist du dabei:</p>
 				</header>
-				<form method="post" action="#">
+				<form method="post">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile">
 							<input type="text" class="text" name="callname" placeholder="Wie sollen wir dich nennen?" required/>
 						</div>
-						<div class="col-12">
+						<div class="col-6 col-12-mobile">
+							<input type="email" class="text" name="email" placeholder="E-Mail" required/>
+						</div>
+						<div class="col-6 col-12-mobile">
 							<select name="age" required>
 								<option value="">Wähle aus wie alt du bist</option>
 								<option value="0">Keine Angabe</option>
@@ -95,9 +98,6 @@
 							</select>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="email" class="text" name="email" placeholder="E-Mail" required/>
-						</div>
-						<div class="col-6 col-12-mobile">
 							<input type="telephone" class="text" name="phone_number" placeholder="Deine Handynummer" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
@@ -109,7 +109,7 @@
 						</div>
 						<div class="col-12">
 							<ul class="actions">
-								<li><input type="submit" value="Jetzt registrieren" /></li>
+								<li><input type="submit" name="register" value="Jetzt registrieren"/></li>
 							</ul>
 						</div>
 					</div>
