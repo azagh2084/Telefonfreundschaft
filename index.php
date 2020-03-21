@@ -92,7 +92,7 @@
 						</div>
 						<div class="col-6 col-12-mobile">
 							<select name="age" required>
-								<option value="">Wähle aus wie alt du bist</option>
+								<option value="">Wähle dein Alter</option>
 								<option value="0">Keine Angabe</option>
 								<option value="18">18 Jahre</option>
 								<option value="19">19 Jahre</option>
@@ -196,7 +196,7 @@
 						</div>
 						<div class="col-6 col-12-mobile">
 							<select name="gender">
-								<option value="">Wähle dein Geschlecht aus (optional)</option>
+								<option value="">Wähle dein Geschlecht (optional)</option>
 								<option value="0">Keine Angabe</option>
 								<option value="female">Weiblich</option>
 								<option value="male">Männlich</option>
