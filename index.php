@@ -193,7 +193,7 @@
 							</select>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="telephone" class="text" name="phone_number" placeholder="Deine Handynummer" maxlength="16" required/>
+							<input type="tel" class="text" name="phone_number" placeholder="Deine Handynummer" maxlength="16" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
 							<input type="password" class="password" name="password" placeholder="Passwort" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" minlenght="8" required/>
