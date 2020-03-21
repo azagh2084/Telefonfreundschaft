@@ -33,10 +33,9 @@
 				<a href="#" class="image fit"><img src="images/people_network.jpg" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Mit wem wirst du telefonieren?</h2>
+						<h2>Wer ist dein Gesprächspartner?</h2>
 					</header>
-					<p>Geht es dir gerade schlecht, wirst du mit jemandem telefonieren der schon länger dabei ist und der vertrauenswürdig ist. Geht es dir gut, wirst du mit Leuten die neu dabei sind telefonieren können.<br>
-					Du kannst den Leuten hier also vertrauen. 😊</p>
+					<p>Du hast hier die Möglichkeit mit Menschen in Kontakt zu treten, die dir das Gefühl von Verbundenheit geben. Durch eine vorherige Stimmungsabfrage ermitteln wir dein passendes Gegenüber. Die Anzahl der Sterne zeigt dir wie oft jemand schon anderen geholfen hat. Trau dich, ruf einfach an. Wir sind soziale Wesen und brauchen uns gegenseitig wie die Luft zum Atmen. 😊</p>
 				</div>
 			</article>
 
@@ -47,7 +46,7 @@
 						<header>
 							<h2>Du weiẞt nicht worüber? Du weißt nicht wie viel?</h2>
 						</header>
-						<p>Kein Problem, manchmal fehlen einem die Worte. Das legt sich meistens schnell und ihr findet einen gemeinsamen Nenner. In Zeiten der Not geht es um die Verbindung, nicht so sehr um die Details. Sprecht über eure Interessen, was euch gerade durch den Kopf geht oder das Weltgeschehen.</p>
+						<p>Kein Problem, manchmal fehlen einem die Worte. Das legt sich meistens schnell und ihr findet einen gemeinsamen Nenner. In Zeiten der Not geht es um die Verbindung, nicht so sehr um die Details. Sprecht über eure Interessen, was euch gerade durch den Kopf geht oder stellt Fragen.</p>
 					</div>
 				</article>
 
@@ -233,7 +232,7 @@
 			</article>
 
 		<!-- Generic -->
-			<article class="container box style3">
+			<!--<article class="container box style3">
 				<header>
 					<h2>Generic Box</h2>
 					<p>Just a generic box. Nothing to see here.</p>
@@ -377,32 +376,8 @@
 						</div>
 					</form>
 				</section>
-			</article>
+			</article>-->
 
-		<section id="footer">
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-			</ul>
-			<div class="copyright">
-				<ul class="menu">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+<?php
+	require_once('./inc/footer.inc.php');
+?>
