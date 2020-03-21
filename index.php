@@ -34,7 +34,7 @@
 					<header>
 						<h2>Mit wem wirst du telefonieren?</h2>
 					</header>
-					<p>Geht es dir gerade schlecht, wirst du mit jemandem telefonieren der schon länger dabei ist und der vertrauenswürdig ist. Geht es dir gut, wirst du mit Leuten die neu dabei sind telefonieren können. Bei Missbrauchsfällen wird die Telefonnummer gesperrt und ggf. rechtliche verfahren eingeleitet.<br>
+					<p>Geht es dir gerade schlecht, wirst du mit jemandem telefonieren der schon länger dabei ist und der vertrauenswürdig ist. Geht es dir gut, wirst du mit Leuten die neu dabei sind telefonieren können.<br>
 					Du kannst den Leuten hier also vertrauen. 😊</p>
 				</div>
 			</article>
