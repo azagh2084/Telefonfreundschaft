@@ -204,7 +204,7 @@
 						<div class="col-12">
 							<textarea name="message" placeholder="Deine Motivation" maxlength="512"></textarea>
 						</div>
-						<label for="captcha" style="display: none;"> <?php echo strval(random_int(1,99)).'+'strval(random_int(1,99)); ?>
+						<label for="captcha" style="display: none;"> <?php echo strval(random_int(1,99)).'+'.strval(random_int(1,99)); ?>
 							<input type="text" name="captcha" id="captcha" style="display: none;">
 						</label>
 						<div class="col-12">
