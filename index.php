@@ -5,13 +5,11 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>This is Overflow</h2>
+					<h2>Seitenname</h2>
 				</header>
-				<p>A brand new site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>.<br />
-				It’s responsive, built on HTML5/CSS3, and entirely free<br />
-				under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
+				<p><big>Du fühlst dich einsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
 				<footer>
-					<a href="#first" class="button style2 scrolly">Act on this message</a>
+					<a href="#first" class="button style2 scrolly">Ich möchte telefonieren</a>
 				</footer>
 			</section>
 
