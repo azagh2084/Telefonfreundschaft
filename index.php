@@ -215,6 +215,7 @@
 								<li><input type="submit" name="register" value="Jetzt registrieren"/></li>
 							</ul>
 						</div>
+						<p><?php echo $error_register; // Hier soll die Fehlermeldung ausgegeben werden ?></p>
 					</div>
 				</form>
 			</article>
