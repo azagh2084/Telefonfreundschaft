@@ -29,13 +29,13 @@
 
 		<!-- Feature 2 -->
 			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/people_network.jpg" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Mollis posuere<br />
-						lectus lacus</h2>
+						<h2>Mit wem wirst du telefonieren?</h2>
 					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+					<p>Geht es dir gerade schlecht, wirst du mit jemandem telefonieren der schon länger dabei ist und der vertrauenswürdig ist. Geht es dir gut, wirst du mit Leuten die neu dabei sind telefonieren können. Bei Missbrauchsfällen wird die Telefonnummer gesperrt und ggf. rechtliche verfahren eingeleitet.<br>
+					Du kannst den Leuten hier also vertrauen. 😊</p>
 				</div>
 			</article>
 
