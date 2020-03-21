@@ -40,7 +40,7 @@
 			</article>
 
 		<!-- Portfolio -->
-			<article class="container box style2">
+			<!--<article class="container box style2">
 				<header>
 					<h2>Magnis parturient</h2>
 					<p>Justo phasellus et aenean dignissim<br />
@@ -60,24 +60,56 @@
 						<div class="col-3 col-12-mobile"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
 					</div>
 				</div>
-			</article>
+			</article>-->
 
-		<!-- Contact -->
+		<!-- Register -->
 			<article class="container box style3">
 				<header>
-					<h2>Nisl sed ultricies</h2>
-					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
+					<h2>Jetzt mitmachen</h2>
+					<p>Nur noch ein paar Schritte, dann bist du dabei:</p>
 				</header>
 				<form method="post" action="#">
 					<div class="row gtr-50">
-						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+						<div class="col-6 col-12-mobile">
+							<input type="text" class="text" name="callname" placeholder="Wie sollen wir dich nennen?" required/>
+						</div>
 						<div class="col-12">
-							<textarea name="message" placeholder="Message"></textarea>
+							<select name="age" required>
+								<option value="">Wähle aus wie alt du bist</option>
+								<option value="0">Keine Angabe</option>
+								<option value="18">18 Jahre</option>
+								<option value="19">19 Jahre</option>
+								<option value="20">20 Jahre</option>
+								<option value="21">20 Jahre</option>
+								<option value="22">20 Jahre</option>
+								<option value="23">20 Jahre</option>
+								<option value="24">20 Jahre</option>
+								<option value="25">20 Jahre</option>
+								<option value="26">20 Jahre</option>
+								<option value="27">20 Jahre</option>
+								<option value="28">20 Jahre</option>
+								<option value="29">20 Jahre</option>
+								<option value="30">20 Jahre</option>
+								<option value="31">20 Jahre</option>
+								<option value="32">20 Jahre</option>
+							</select>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input type="email" class="text" name="email" placeholder="E-Mail" required/>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input type="telephone" class="text" name="phone_number" placeholder="Deine Handynummer" required/>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<input type="password" class="password" name="password" placeholder="Passwort" required/>
+						</div>
+
+						<div class="col-12">
+							<textarea name="message" placeholder="Deine Motivation"></textarea>
 						</div>
 						<div class="col-12">
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="submit" value="Jetzt registrieren" /></li>
 							</ul>
 						</div>
 					</div>
