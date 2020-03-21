@@ -44,7 +44,7 @@
 					<a href="#" class="image fit"><img src="images/thinking_man.jpg" alt="" /></a>
 					<div class="inner">
 						<header>
-							<h2>Du weißt nicht worüber? Du weißt nicht wie viel?</h2>
+							<h2>Du weiẞt nicht worüber? Du weißt nicht wie viel?</h2>
 						</header>
 						<p>Kein Problem, manchmal fehlen einem die Worte. Das legt sich meistens schnell und ihr findet einen gemeinsamen Nenner. In Zeiten der Not geht es um die Verbindung, nicht so sehr um die Details. Sprecht über eure Interessen, was euch gerade durch den Kopf geht oder das Weltgeschehen.</p>
 					</div>
