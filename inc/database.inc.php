@@ -7,8 +7,8 @@ $options = [
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, //make the default fetch be an associative array
 ];
 @include('/inc/database.rm.inc.php');
-#$mysql_username = '';
-#$mysql_password = '';
+$mysql_username = '';
+$mysql_password = '';
 try {
     $connection = new \PDO($dsn, $mysql_username, $mysql_password, $options);
 } catch (\Exception $e) {
