@@ -6,9 +6,11 @@ $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, //turn on errors in the form of exceptions
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, //make the default fetch be an associative array
 ];
-
+@include('/inc/database.rm.inc.php');
+#$mysql_username = '';
+#$mysql_password = '';
 try {
-    $connection = new \PDO($dsn, 'root', 'root', $options);
+    $connection = new \PDO($dsn, $mysql_username, $mysql_password, $options);
 } catch (\Exception $e) {
     // ToDo enable die on server
     // die('Could not establish connection to database.');
