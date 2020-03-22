@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS `user`
     `password`     varchar(255) not null,
     `phone_number` varchar(16)  not null,
     `motivation`   longtext     null,
-    `last_name`    VARCHAR(255) null,
     `gender`       VARCHAR(255) null,
     `town`         VARCHAR(255) null,
     CONSTRAINT `unique.user` UNIQUE (`call_name`, `email`)

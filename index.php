@@ -85,9 +85,6 @@
 							<input type="text" class="text" name="callname" placeholder="Wie sollen wir dich nennen?" pattern="[A-Za-z][a-z]*" minlenght="2" maxlength="32" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="text" class="text" name="lastname" placeholder="Nachname (optional)" pattern="[A-Za-z][a-z]*" minlenght="2" maxlength="32"/>
-						</div>
-						<div class="col-6 col-12-mobile">
 							<input type="email" class="text" name="email" placeholder="E-Mail" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
@@ -196,7 +193,7 @@
 						</div>
 						<div class="col-6 col-12-mobile">
 							<select name="gender">
-								<option value="">Wähle dein Geschlecht (optional)</option>
+								<option value="">Wähle dein Geschlecht (freiwillige Angabe)</option>
 								<option value="0">Keine Angabe</option>
 								<option value="female">Weiblich</option>
 								<option value="male">Männlich</option>
@@ -213,10 +210,10 @@
 							<input type="password" class="password" name="password_repeat" placeholder="Passwort (Wiederholen)" minlenght="8" required/>
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="text" class="text" name="town" placeholder="Wohnort (optional)" maxlength="32" required/>
+							<input type="text" class="text" name="town" placeholder="Wohnort (freiwillige Angabe)" maxlength="32" required/>
 						</div>
 						<div class="col-12">
-							<textarea name="message" placeholder="Deine Motivation" maxlength="512"></textarea>
+							<textarea name="message" placeholder="Deine Motivation (freiwillige Angabe)" maxlength="512"></textarea>
 						</div>
 						<label for="captcha" style="display: none;"> <?php echo (string)random_int(1, 99) .'+'. (string)random_int(1, 99); ?>
 							<input type="text" name="captcha" id="captcha" style="display: none;">

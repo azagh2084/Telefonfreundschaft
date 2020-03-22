@@ -36,7 +36,7 @@ if (
 }
 
 $query = <<<SQL
-INSERT INTO `user` 
+INSERT INTO `user`
     (
      `call_name`,
      `age`,
@@ -44,7 +44,6 @@ INSERT INTO `user`
      `password`,
      `phone_number`,
      `motivation`,
-     `last_name`,
      `gender`,
      `town`
      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
@@ -62,7 +61,6 @@ try {
             password_hash($password, PASSWORD_ARGON2ID),
             $phoneNumber,
             $motivation,
-            $lastName,
             $gender,
             $town
         ]
