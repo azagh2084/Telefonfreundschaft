@@ -5,7 +5,7 @@
   </ul>
   <div class="copyright">
     <ul class="menu">
-      <li>&copy;<?php echo date('Y').$site_name; ?> <a href="https://wirvsvirushackathon.org/" rel="external" target="_blank" title="Wir gegen COVID-19">#WirVsVirus</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="https://github.com/azagh2084/Telefonfreundschaft" target="_blank" rel="sourcecode" title="Schaue dir den Sourcecode auf GitHub an.">GitHub</a></li>
+      <li>&copy;<?php echo date('Y').' '.$site_name; ?> <a href="https://wirvsvirushackathon.org/" rel="external" target="_blank" title="Wir gegen COVID-19">#WirVsVirus</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="https://github.com/azagh2084/Telefonfreundschaft" target="_blank" rel="sourcecode" title="Schaue dir den Sourcecode auf GitHub an.">GitHub</a></li>
     </ul>
   </div>
 </section>
