@@ -1,4 +1,4 @@
-# Telefonhelfer
+# Telefonfreundschaft
 
 A website to connect people. 
 
