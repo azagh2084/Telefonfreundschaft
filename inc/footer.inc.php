@@ -1,7 +1,7 @@
 <section id="footer">
   <ul class="icons">
-    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-    <li><a href="#" class="icon brands fa-pinterest"><span class="label">Instagram</span></a></li>
+    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter (comming soon)</span></a></li>
+    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram (comming soon)</span></a></li>
   </ul>
   <div class="copyright">
     <ul class="menu">
