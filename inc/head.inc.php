@@ -1,5 +1,6 @@
 <?php
   require_once('./inc/database.inc.php');
+  require_once('./inc/globalvars.inc.php');
   require_once('./inc/functions.inc.php');
 
 ?>
