@@ -46,7 +46,7 @@ INSERT INTO `user`
      `motivation`,
      `gender`,
      `town`
-     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
 SQL;
 
 
