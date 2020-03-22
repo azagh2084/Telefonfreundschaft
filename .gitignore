@@ -1,2 +1,4 @@
 node_modules
 .idea/
+log/*.log
+/inc/database.rm.inc.php
