@@ -22,7 +22,7 @@
 						<h2>Wie entstand die Idee?</h2>
 					</header>
 					<p>
-						“eine Freundin meinte, sie hat sich so auf Uni gefreut, weil sie dann endlich wieder Struktur hat und das jetzt leider wegfällt. Ich habe ihr vorgeschlagen, dass ich sie jeden morgen zur gleichen Uhrzeit anrufen kann und das funktioniert bis jetzt sehr gut.”<br>
+						“Eine Freundin meinte, sie hat sich so auf Uni gefreut, weil sie dann endlich wieder Struktur hat und das jetzt leider wegfällt. Ich habe ihr vorgeschlagen, dass ich sie jeden morgen zur gleichen Uhrzeit anrufen kann und das funktioniert bis jetzt sehr gut.”<br>
 						Und was machen Menschen, denen es an Freund*Innen fehlt, die Situationen wie diese auffangen?
 					</p>
 				</div>
