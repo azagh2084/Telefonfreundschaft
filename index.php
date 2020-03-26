@@ -8,7 +8,7 @@
 				<header>
 					<h2>Gemeinsam Zusammen</h2>
 				</header>
-				<p><big>Du fühlst dich Einsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
+				<p><big>Du fühlst dich Eeeeeeeeeeeeeeinsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
 				<footer>
 					<a href="#first" class="button style2 scrolly">Ich möchte telefonieren</a>
 				</footer>
