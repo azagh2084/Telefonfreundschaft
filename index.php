@@ -35,7 +35,7 @@
 					<header>
 						<h2>Wer ist dein Gesprächspartner?</h2>
 					</header>
-					<p>Du hast hier die Möglichkeit mit Menschen in Kontakt zu treten, die dir das Gefühl von Verbundenheit geben. Durch eine vorherige Stimmungsabfrage ermitteln wir dein passendes Gegenüber. Die Anzahl der Sterne zeigt dir wie oft jemand schon anderen geholfen hat. Trau dich, ruf einfach an. Wir sind soziale Wesen und brauchen uns gegenseitig wie die Luft zum Atmen. 😊</p>
+					<p>Du hast hier die Möglichkeit mit Menschen in Kontakt zu treten, die dir das Gefühl von Verbundenheit geben. Durch eine vorherige Stimmungsabfrage ermitteln wir dein passendes Gegenüber.  Trau dich, ruf einfach an. Wir sind soziale Wesen und brauchen uns gegenseitig wie die Luft zum Atmen. 😊</p>
 				</div>
 			</article>
 
