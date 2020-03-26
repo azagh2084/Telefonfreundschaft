@@ -8,7 +8,7 @@
 				<header>
 					<h2>Gemeinsam Zusammen</h2>
 				</header>
-				<p><big>Du fühlst dich einsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
+				<p><big>Du fühlst dich Einsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
 				<footer>
 					<a href="#first" class="button style2 scrolly">Ich möchte telefonieren</a>
 				</footer>
@@ -22,7 +22,7 @@
 						<h2>Wie entstand die Idee?</h2>
 					</header>
 					<p>
-						“Eine Freundin meinte, sie hat sich so auf Uni gefreut, weil sie dann endlich wieder Struktur hat und das jetzt leider wegfällt. Ich habe ihr vorgeschlagen, dass ich sie jeden morgen zur gleichen Uhrzeit anrufen kann und das funktioniert bis jetzt sehr gut.”<br> 
+						“Eine Freundin meinte, sie hat sich so auf Uni gefreut, weil sie dann endlich wieder Struktur hat und das jetzt leider wegfällt. Ich habe ihr vorgeschlagen, dass ich sie jeden morgen zur gleichen Uhrzeit anrufen kann und das funktioniert bis jetzt sehr gut.”<br>
 						Und was machen Menschen, denen es an Freund*Innen fehlt, die Situationen wie diese auffangen?
 					</p>
 				</div>
