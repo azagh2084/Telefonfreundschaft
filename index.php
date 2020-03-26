@@ -6,7 +6,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>GemeinsamZusammen</h2>
+					<h2>Gemeinsam Zusammen</h2>
 				</header>
 				<p><big>Du fühlst dich einsam?</big><br>Diese Seite ist für alle, die sich mehr soziale Interaktionen wünschen und nicht wissen, woher sie diese bekommen können.</p>
 				<footer>
